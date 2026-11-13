@@ -9,7 +9,7 @@ export default function Inicio() {
       {/* Avatar */}
       <View style={estilos.avatarContenedor}>
         <Ionicons name="person-circle" size={100} color="#2563eb" />
-        <Text style={estilos.nombre}>Pepito Pérez Gómez</Text>
+        <Text style={estilos.nombre}>Samuel Castro Vanegas</Text>
         <Text style={estilos.profesion}>Tecnólogo en ADSO</Text>
       </View>
 
@@ -31,35 +31,35 @@ export default function Inicio() {
           textoBoton="Enviar Correo"
           nombreIcono="mail"
           colorBoton="#f59e0b"
-          onPress={() => Alert.alert("Correo", "juan.perez@misena.edu.co")}
+          onPress={() => Alert.alert("Correo", "samuelcasvan@misena.edu.co")}
         />
 
         <MiBoton
           textoBoton="Llamar"
           nombreIcono="call"
           colorBoton="#10b981"
-          onPress={() => Alert.alert("Teléfono", "+57 300 123 4567")}
+          onPress={() => Alert.alert("Teléfono", "+57 304 3929395")}
         />
 
         <MiBoton
           textoBoton="Ver Perfil LinkedIn"
           nombreIcono="logo-linkedin"
           colorBoton="#0a66c2"
-          onPress={() => Alert.alert("LinkedIn", "linkedin.com/in/pepito-perez")}
+          onPress={() => Alert.alert("LinkedIn", "linkedin.com/in/samuel-castro-vanegas")}
         />
 
         <MiBoton
           textoBoton="Facebook"
           nombreIcono="logo-facebook"
           colorBoton="#1877f2"
-          onPress={() => Alert.alert("Facebook", "facebook.com/pepito.perez")}
+          onPress={() => Alert.alert("Facebook", "facebook.com/samuel.castro")}
         />
 
         <MiBoton
           textoBoton="Instagram"
           nombreIcono="logo-instagram"
           colorBoton="#e4405f"
-          onPress={() => Alert.alert("Instagram", "@pepito_dev")}
+          onPress={() => Alert.alert("Instagram", "@samuel_castro")}
         />
       </View>
     </ScrollView>

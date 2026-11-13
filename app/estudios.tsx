@@ -9,22 +9,22 @@ export default function Estudios() {
 
       <TarjetaEstudio
         titulo="Bachiller"
-        institucion="Institución Educativa Municipal"
-        anio={2019}
+        institucion="Institución Educativa arborizadora Baja"
+        anio={2025}
         enCurso={false}
       />
 
       <TarjetaEstudio
-        titulo="Técnico en Sistemas"
-        institucion="Colegio ABC"
-        anio={2021}
+        titulo="Técnico en Programacion"
+        institucion="SENA"
+        anio={2025}
         enCurso={false}
       />
 
       <TarjetaEstudio
         titulo="Tecnólogo en Análisis y Desarrollo de Software"
         institucion="SENA"
-        anio={2025}
+        anio={2026}
         enCurso={true}
       />
     </ScrollView>
